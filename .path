@@ -1,18 +1,14 @@
-# Assign path to Golang
-export GOPATH="$HOME/golang"
+# Composer
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
-# Setup path
-PATH="$PATH:/usr/local/sbin"
+# set vim as default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
-# Add support for jenv @see http://www.jenv.be/
-PATH="$PATH:$HOME/.jenv/bin" 
-eval "$(jenv init -)"
-
-# Add support for yarn
-PATH="$PATH:$HOME/.yarn/bin" 
-
-# Add support for rbenv
-PATH="$HOME/.rbenv/bin:$PATH"
+# nvm
+export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH
-
