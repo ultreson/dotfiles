@@ -1,9 +1,3 @@
-# Syntax highlighted version of cat (requires pygments to be installed)
-#          pip3 install pygments
-# @see  https://github.com/addyosmani/dotfiles/blob/master/.aliases#L85
-alias ccat="pygmentize -O style=monokai -f console256 -g"
-
-
 # Empty the Trash on all mounted volumes and the main HDD
 # Also, clear Apple’s System Logs to improve shell startup speed
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
